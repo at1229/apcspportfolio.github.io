@@ -12,7 +12,7 @@
     <div class="bg-black-80 pb7-l">
       <nav class="dt w-100 mw8 center"> 
         <div class="dtc v-mid tr pa3">
-          <a class="f6 fw4 no-underline white-70 dn dib-l pv2" href="homepage.html" ><span>Homepage</span></a> 
+          <a class="f6 fw4 no-underline white-70 dn dib-l pv2" href="index.html" ><span>Homepage</span></a> 
           <a class="f6 fw4 no-underline white-70 dn dib-l pv2 ph3" href="project-page.html" ><span>Project</span></a> 
           <a class="f6 fw4 no-underline white-70 dn dib-l pv2 ph3" href="math-page.html" ><span>Math</span></a> 
           <a class="f6 fw4 no-underline white-70 dn dib-l pv2 ph3" href="others-page.html" ><span>Others</span></a> 
@@ -33,31 +33,15 @@
         <img class="pic2" src="images/elainepic.jpg" width='400' height='320'>
       </div>
 
-<!--TIMER-->
+<!--countup-->
       <div>
         <div class="tc-2 mt6-l">
         <hr id="middle" class="hr-4" align="center" color="#990014">
         <h2 class="fw1 f3 white-80 mt3 mb4">I have been on Earth for</h2>
-        <div class="mt6-2 timer"> 
-          <iframe id = "timer" width="100%" height="100%" frameborder="0">
-            <p id="countup" class="fw1 white-80 f3"></p>
-            <script>
-              var countupdate = new Date = ("December 29, 2002 24:00:00").getTime();
-              var x = setInterval(function() {
-                var now = new Date().getTime();
-                var distance = now - countupdate;
-                var sec = Math.floor(distance%(1000*60*60*24)/1000);
-                var minute = Math.floor(distance%(1000*60*60*24)/(1000*60))
-                var day = Math.floor(distance/(1000*60*60*24));
-                var hour = Math.floor(distance%(1000*60*60*24)/(1000*60*60));
-                document.getElementById("countup").innerHTML = day + "d " + hour + "h " + minute + ":" + sec;
-                
-              },1000);
-            </script>
-          </iframe>
-          <br>
+        <iframe class="countup" src="timer-index.html"></iframe>
+        <br>
         <a class="f6 no-underline grow dib v-mid bg-red white ba b--blue pv2 mb3" href="project-page.html">View Projects</a>
-        </div>
+        <div>
         <hr class="hr-3" align="center" color="#990014">
         </div>
       </div>
@@ -67,15 +51,16 @@
         <h2 class="fw1 f3 white-80 mt3 mb4">Contact</h2>
         <div style="width: 50%; float:left">
           <h3 class="fw1 f4 white-80 mt3 mb4 cont">Contact me</h3>
+          <hr class="hr-3" align="center" color="#990014">
           <p class="white p1"> Hong Kong International School </p>
           <p class="white p1">1 Red Hill, Tai Tam, Hong Kong</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d969.5147341482874!2d114.22292131593612!3d22.23761590548075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401e3bc503a7d%3A0xf557f0ca581cee4a!2sHong+Kong+International+School!5e0!3m2!1sen!2shk!4v1538891735780" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
           <p class="white p1"> <i class="fa fa-envelope"></i> Contact Me! –––––––– 210530@hkis.edu.hk </p>
-
         </div>
 
         <div style="width: 50%; float:right">
           <h3 class="fw1 f4 white-80 mt3 mb4 cont1">Feedback</h3>
+          <br>
           <br>
         </div>
         <hr class="hr-3" align="center" color="#990014">
