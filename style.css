@@ -1,0 +1,118 @@
+* {
+  font-family: -apple-system,
+                BlinkMacSystemFont,
+                'avenir next',
+                avenir,
+                'helvetica neue',
+                helvetica,
+                ubuntu,
+                roboto,
+                noto,
+                'segoe ui',
+                arial,
+                sans-serif;;
+}
+
+}
+body {
+  font-family: -apple-system,
+                BlinkMacSystemFont,
+                'avenir next',
+                avenir,
+                'helvetica neue',
+                helvetica,
+                ubuntu,
+                roboto,
+                noto,
+                'segoe ui',
+                arial,
+                sans-serif;;
+  margin: 0px auto;
+  font-size: 14px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1 {
+  color: #000000;
+
+}
+
+#container {
+  width: 500px;
+  margin: 0px auto;
+  min-height: 750px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  font-size: 1.2em;
+  border-radius:8px;
+}
+
+button:hover{
+  border:solid;
+}
+
+input[type='text'] {
+  height: 1.9em;
+  font-size: 2em;
+  width: 400px;
+  padding: 5px;
+}
+
+ol#items {
+  padding-left: 10px;
+  margin-left: 25px;
+  font-size: 2em;
+}
+
+ol#items li {
+  padding: 10px 2px 5px;
+  border-bottom: 2px solid #E5E2E0;
+}
+
+.label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 0.5em;
+  float: right;
+}
+
+.label.pending {
+  background-color: #d95a6a;
+}
+
+.label.success {
+  background-color: #2a8930;
+}
+
+.total {
+  float: right;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+footer {
+  padding-bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+footer #content {
+  margin: 0px auto;
+}
+
+html {
+  height:100%;
+  width: 50%;
+}
